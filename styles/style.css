@@ -1,0 +1,233 @@
+/*Font families from google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100;0,300;0,400;0,900;1,300&display=swap");
+
+body {
+  /* background-color: #1c1973; */
+  background-color: #0439D9;
+  overflow-x: hidden;
+}
+
+main {
+  /* background-color: #f294a5; */
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  /* padding: 0px 20px 10px 20px; */
+}
+
+header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 5.1em;
+  margin-bottom: 0px;
+  color: #f27999;
+  /* color: #f27999; */
+}
+
+h1,
+h2 {
+  font-family: "Abril Fatface", cursive;
+ 
+}
+
+h2{
+  font-size:4rem;
+
+}
+
+h3 {
+  color: #f27999;
+  letter-spacing: 2px;
+}
+
+h3,
+ul,
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+  text-align: center;
+  color: #f294a5;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #f294a5;
+}
+
+.myself{
+  width: 300px;
+  border: 10px solid #f27999;
+  height: 450px;
+  margin-top: 20px;
+}
+
+button{
+  background-color:#f27999;
+    border: none;
+    padding: 10px 15px 10px 15px;
+   
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: hotpink;
+}
+
+.social {
+  width: 30px;
+}
+
+.social a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.date {
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.courseTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.shadowing {
+  text-shadow: 4px 4px #0d0b46;
+}
+ 
+.roles {
+  text-align: center;
+  list-style-position: outside;
+}
+
+.roles li {
+  text-align: left;
+  margin-left: 2%;
+  width: 90%;
+  padding-bottom: 10px;
+  line-height: 24px;
+} 
+
+.credit {
+  display: none;
+}
+
+.jobSpec{
+  font-weight: lighter;
+  margin: 10px 0px 30px 0px;
+}
+
+
+#experience{
+display:flex;
+justify-content: space-around;
+
+}
+
+#experience div{
+  background-color: #010B40;
+  box-shadow: 20px 20px #06036e;
+  width: 30%;
+}
+
+#experience .date{
+  padding-top: 10px;
+}
+
+.workTitle{
+  font-size:2.3em;
+  margin: 0px;
+}
+
+
+
+ul#skills{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+
+}
+
+#skills li{
+  list-style-type: none;
+  background-color:#f294a5;
+  color: #010B40;
+  height: 40px;
+  width: 150px;
+  padding-top: 15px;
+  box-shadow: 7px 7px #f27999;
+  font-weight: bold;
+
+}
+
+
+.educationStyle{
+  background-color:#f294a5;
+  box-shadow: 20px 20px #f27999;
+  width: 40%;
+  color: #010B40;
+  padding: 15px 0 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.coverStyle{
+  background-color:#f294a5;
+  box-shadow: 20px 20px #f27999;
+  width: 70%;
+  color: #010B40;
+  padding: 15px 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.coverStyle p{
+  font-size: 24px;
+  font-weight: 500;
+  padding: 30px 25px 0px 25px;
+
+}
+
+.homeButton{
+  margin-top: 50px;
+}
+ 
+@media only screen and (max-width: 1000px) {
+  #experience{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 45px;
+    
+    }
+    
+    #experience div{
+      background-color: #010B40;
+      box-shadow: 20px 20px #06036e;
+      width: 100%;
+    }
+    .educationStyle{
+      width: 90%;
+    }
+
+    .coverStyle{
+      flex-direction: column;
+    }
+}
